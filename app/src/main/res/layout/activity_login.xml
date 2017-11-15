@@ -81,25 +81,23 @@
             android:background="@drawable/bg_login_button_round"
             android:textColor="@android:color/white"
             android:onClick="onLogin"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Belum Punya Akun?"
+            android:textColor="#FE0000"
+            android:layout_marginTop="20dp"/>
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp">
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Materi Offline"
-                android:background="@drawable/bg_login_button_round"
-                android:textColor="@android:color/white"
-                android:paddingLeft="10dp"
-                android:paddingRight="10dp"/>
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center_horizontal">
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Register"
                 android:background="@drawable/bg_login_button_round"
                 android:textColor="@android:color/white"
-                android:layout_marginLeft="10dp"
                 android:id="@+id/bt_register"
                 android:onClick="onRegister"/>
         </LinearLayout>
