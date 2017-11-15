@@ -9,8 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LoginPage">
-        </activity>
+        <activity android:name=".LoginPage"></activity>
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,7 +26,9 @@
         <activity android:name=".CustomerMain" />
         <activity android:name=".search" />
         <activity android:name=".SearchPage" />
-        <activity android:name=".CustomerTransaksi"></activity>
+        <activity android:name=".CustomerTransaksi" />
+        <activity android:name=".CustomerHomestayInfo" />
+        <activity android:name=".CustomerConfirmationPage"></activity>
     </application>
 
 </manifest>
