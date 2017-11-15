@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="@drawable/backgroundlist">
+
+        <ImageView
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/bedroom_sample"
+            android:id="@+id/gambarjasa"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/gambarjasa"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/nama_jasa_toko_baru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/gambarjasa"
+                android:paddingLeft="15dp"
+                android:textSize="22dp"
+                android:textColor="@android:color/black"
+                android:text="Anton Wiguna"/>
+            <TextView
+                android:id="@+id/nama_konsumen_toko_baru"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingTop="3dp"
+                android:textSize="15dp"
+                android:text="Kamar 3x2 | 15/11/2017 - 20/11/2017"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="@drawable/backgroundlist">
+
+        <ImageView
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/bedroom_sample1"
+            android:id="@+id/gambarjasa1"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/gambarjasa1"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/nama_jasa_toko_baru1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/gambarjasa"
+                android:paddingLeft="15dp"
+                android:textSize="22dp"
+                android:textColor="@android:color/black"
+                android:text="Luqman Ahmad"/>
+            <TextView
+                android:id="@+id/nama_konsumen_toko_baru1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingTop="3dp"
+                android:textSize="15dp"
+                android:text="Kamar 4x4 | 12/11/2017 - 24/11/2017"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
