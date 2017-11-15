@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.antonius.homy.LoginActivity"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/homy_logo_blue"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bg_login_round">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/email_white_36dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"/>
+        <View
+            android:layout_width="2dp"
+            android:layout_height="fill_parent"
+            android:background="@android:color/white" />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Email ID"
+            android:layout_marginLeft="5dp"
+            android:inputType="textEmailAddress"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bg_login_round"
+        android:layout_marginTop="5dp">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/lock_white_36dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"/>
+        <View
+            android:layout_width="2dp"
+            android:layout_height="fill_parent"
+            android:background="@android:color/white" />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:layout_marginLeft="5dp"
+            android:inputType="textPassword"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="10dp">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bg_login_button_round"
+            android:textColor="@android:color/white"
+            android:onClick="onLogin"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Materi Offline"
+                android:background="@drawable/bg_login_button_round"
+                android:textColor="@android:color/white"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:background="@drawable/bg_login_button_round"
+                android:textColor="@android:color/white"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/bt_register"
+                android:onClick="onRegister"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
