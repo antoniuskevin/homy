@@ -23,7 +23,10 @@
             android:label="@string/title_activity_kontrol_penyedia"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".KatalogActivity" />
-        <activity android:name=".CustomerMain"></activity>
+        <activity android:name=".CustomerMain" />
+        <activity android:name=".search" />
+        <activity android:name=".SearchPage" />
+        <activity android:name=".CustomerTransaksi"></activity>
     </application>
 
 </manifest>
